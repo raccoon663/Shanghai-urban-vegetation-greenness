@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / credentials
+.env
+*.env
+credentials*
+*_token*
+*secret*
+
+# Large remote-sensing data (not stored in repo)
+*.tif
+*.tiff
+data/raw/
+data/interim/
+data/processed/
+outputs/raw_rasters/
+
+# Local / OS junk
+.DS_Store
+Thumbs.db
+*.log
+.cache/

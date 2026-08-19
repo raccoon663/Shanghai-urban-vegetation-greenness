@@ -1,0 +1,3 @@
+﻿relation,estimate,standard_error,ci_low,ci_high,p_value,n_block_years,n_blocks,sample_scope,replication_thermal_status
+built_fraction_to_summer_LST,7.069693974220502,3.99534291004994,-0.7611781294773801,14.900566077918384,0.07681319613200788,89,16,historically validated original blocks; existing Phase 2 Landsat LST,not extracted; new original-block coordinate egress not authorized
+summer_LST_to_summer_NDVI_adjusted_built,-0.0023117071941609973,0.004170981689892719,-0.010486831306350726,0.005863416918028731,0.5794175101172737,89,16,historically validated original blocks; existing Phase 2 Landsat LST,not extracted; new original-block coordinate egress not authorized
