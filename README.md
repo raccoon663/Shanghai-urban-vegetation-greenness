@@ -55,7 +55,7 @@ Higher surrounding built intensity was consistently associated with lower summer
 
 ![Leave-one-block-out robustness for the combined summer model](assets/figures/figure_11_combined_loo.png)
 
-All three predeclared sensor strategies (Sentinel-2 only, pooled calibration, platform-aware calibration) returned negative summer estimates, although each confidence interval crossed zero. Peak NDVI was negative but weaker and more sensor-sensitive (combined −0.044, 95% CI −0.148 to 0.061; all 25 leave-one-block-out estimates negative) and is reported as a secondary, not confirmatory, endpoint. Thermal evidence was directionally consistent with the main result — built fraction was positively associated with summer land-surface temperature, and summer LST negatively associated with summer NDVI — but remains a supporting secondary line of evidence.
+All three sensor strategies (Sentinel-2 only, pooled calibration, platform-aware calibration) returned negative summer estimates, although each confidence interval crossed zero. Peak NDVI was negative but weaker and more sensor-sensitive (combined −0.044, 95% CI −0.148 to 0.061; all 25 leave-one-block-out estimates negative) and is reported as a secondary endpoint, not a confirmatory one. Thermal evidence was directionally consistent with the main result — built fraction was positively associated with summer land-surface temperature, and summer LST negatively associated with summer NDVI — but remains a supporting secondary line of evidence.
 
 <div style="margin-top:24px"></div>
 
@@ -63,7 +63,7 @@ All three predeclared sensor strategies (Sentinel-2 only, pooled calibration, pl
 
 <div style="margin-bottom:32px"></div>
 
-**Uncertainty.** The combined block-level confidence interval and block-bootstrap interval did not fully exclude zero. The finding is therefore a reproducible, replicated *association*; it is not presented as a proven causal effect, and the residual inferential uncertainty is material.
+**Uncertainty.** The combined block-level confidence interval and block-bootstrap interval did not fully exclude zero. The finding is therefore a reproducible, replicated *association*; it is not presented as a proven causal effect, and the remaining inferential uncertainty is substantial.
 
 ## Limitations
 
@@ -81,7 +81,7 @@ config/        Final analysis configuration (final_analysis.json)
 scripts/       Final pipeline: extraction, calibration, models, replication, figures
 data/          Data-source documentation (raw data not stored here)
 outputs/tables/ Final result tables (primary models, replication, LOO, calibration)
-assets/figures/ Selected publication figures
+assets/figures/ Selected figures
 gis/           Validated patch and replication-block geometries (GeoJSON)
 docs/          methods.md, data_sources.md, limitations.md
 ```
